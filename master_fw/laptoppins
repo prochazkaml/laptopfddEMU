@@ -1,0 +1,18 @@
+1 - GND
+2 - +5V
+3 - D7 - PD7
+4 - D5 - PD5
+5 - A3 - PC3
+6 - NC (1K resistor to VCC)
+7 - NC (1K resistor to VCC)
+8 - D4 - PD4
+9 - NC
+10 - D3 - PD3
+11 - D2 - PD2
+12 - D8 - PB0
+13 - A0 - PC0
+14 - A1 - PC1
+15 - A2 - PC2
+16 - D9 - PB1
+17 - D6 - PD6
+
