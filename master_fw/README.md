@@ -3,19 +3,19 @@ An AVR (atmega328p) based floppy drive emulator for PC
 <br>
 [![build for atmega328p & atmega32u4](https://github.com/acemielektron/fddEMU/actions/workflows/build-firmware.yml/badge.svg)](https://github.com/acemielektron/fddEMU/actions/workflows/build-firmware.yml)
 <br>
-![fddEMU on perfboard](/images/perfboard-2.png)
+![fddEMU on perfboard](/master_fw/images/perfboard-2.png)
 <br>
 <br>
 fddEMU is a DIY floppy drive emulator. You can immediately begin testing fddEMU on serial terminal with an arduino nano, an SD adapter that converts 5 volts arduino power supply and signals to 3.3 volts suitable for SD card, an SD card,  and some jumper cables. 
 Standalone (using without usb serial connection) require SSD1306 i2c screen, buttons and a 5 volts power supply.
 <br><br>
 
-![fddEMU on breadboard](/images/breadboard.png)
+![fddEMU on breadboard](/master_fw/images/breadboard.png)
 <br><br>
 
 **A very compact and configurable PCB design for fddEMU (created by @ikonko)**<br>
-Please check [documentation and photos for compact PCB](/images/ikonko) for detailed explanation and configuration options. Gerber files are available in [hardware](/hardware) folder.
-![Compact multilayered pcb](/images/ikonko/fddEMU_v1.png)
+Please check [documentation and photos for compact PCB](/master_fw/images/ikonko) for detailed explanation and configuration options. Gerber files are available in [hardware](/hardware) folder.
+![Compact multilayered pcb](/master_fw/images/ikonko/fddEMU_v1.png)
 <br><br>
 
 **Limitations**
@@ -110,7 +110,7 @@ VCC                 |5V             |VCC
 <br>
 Connected to pin A7 (ADC7) on Arduino Nano or pin A2 (PF5) on Arduino Pro Micro
 <br>
-![Resistor Ladder 1x5](/images/ResistorLadder-1x5.png)
+![Resistor Ladder 1x5](/master_fw/images/ResistorLadder-1x5.png)
 <br><br>
 
 **Firmware**
@@ -167,7 +167,7 @@ After a drive is selected:<br>
 
 **How to use (Serial interface)**
 <br>
-![initial serial output](/images/serial-init.png)
+![initial serial output](/master_fw/images/serial-init.png)
 <br><br>
 fddEMU serial interface is used through keys 
 * S: Select
